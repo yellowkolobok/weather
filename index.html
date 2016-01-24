@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+        <span class="your-city" id="city">Ваше устройство не поддерживает геолокацию</span>
+        <div class="weather">
+            <div class="today">
+                <div class="block">Погода на сегодня:</div>
+                <div id="image-holder-1"></div>
+                <p class="weather-style" id="weather-morn"></p>
+                <p class="weather-style" id="weather-day"></p>
+                <p class="weather-style" id="weather-eve"></p>
+                <p class="weather-style" id="weather-night"></p>
+                <p class="weather-style" id="weather-cond"></p>
+            </div>
+            <div class="tomorrow">
+                <div class="block">Погода на завтра:</div>
+                <div id="image-holder-2"></div>
+                <p class="weather-style" id="weather-morn-tomorrow"></p>
+                <p class="weather-style" id="weather-day-tomorrow"></p>
+                <p class="weather-style" id="weather-eve-tomorrow"></p>
+                <p class="weather-style" id="weather-night-tomorrow"></p>
+                <p class="weather-style" id="weather-cond-tomorrow"></p>
+            </div>
+            <div class="aftertomorrow">
+                <div class="block">Погода на послезавтра:</div>
+                <div id="image-holder-3"></div>
+                <p class="weather-style" id="weather-morn-aftertomorrow"></p>
+                <p class="weather-style" id="weather-day-aftertomorrow"></p>
+                <p class="weather-style" id="weather-eve-aftertomorrow"></p>
+                <p class="weather-style" id="weather-night-aftertomorrow"></p>
+                <p class="weather-style" id="weather-cond-aftertomorrow"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js">
+        
+    </script>
+</body>
+</html>
